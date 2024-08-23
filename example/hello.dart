@@ -6,4 +6,7 @@ void main() {
   var penjualan = barang('Rokok02', 091);
   print(penjualan.barangId);
   print(penjualan.jumlah);
+
+  var Gaji = gaji(10000000);
+  print(Gaji.total);
 }
